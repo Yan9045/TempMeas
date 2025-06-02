@@ -1,0 +1,25 @@
+--cpu Cortex-M3 --scatter f:/STM32cubeMX/Projects/TempMeas/MDK-ARM/build/TempMeas/TempMeas.sct --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--list .\build\TempMeas\TempMeas.map
+.\build\TempMeas\.obj\__\Core\Src\ds18b20.o
+.\build\TempMeas\.obj\__\Core\Src\gpio.o
+.\build\TempMeas\.obj\__\Core\Src\main.o
+.\build\TempMeas\.obj\__\Core\Src\stm32f1xx_hal_msp.o
+.\build\TempMeas\.obj\__\Core\Src\stm32f1xx_it.o
+.\build\TempMeas\.obj\__\Core\Src\system_stm32f1xx.o
+.\build\TempMeas\.obj\__\Core\Src\tim.o
+.\build\TempMeas\.obj\__\Core\Src\usart.o
+.\build\TempMeas\.obj\C\Users\Y\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
+.\build\TempMeas\.obj\C\Users\Y\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
+.\build\TempMeas\.obj\C\Users\Y\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
+.\build\TempMeas\.obj\C\Users\Y\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.o
+.\build\TempMeas\.obj\C\Users\Y\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o
+.\build\TempMeas\.obj\C\Users\Y\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o
+.\build\TempMeas\.obj\C\Users\Y\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o
+.\build\TempMeas\.obj\C\Users\Y\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o
+.\build\TempMeas\.obj\C\Users\Y\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o
+.\build\TempMeas\.obj\C\Users\Y\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
+.\build\TempMeas\.obj\C\Users\Y\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o
+.\build\TempMeas\.obj\C\Users\Y\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
+.\build\TempMeas\.obj\C\Users\Y\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o
+.\build\TempMeas\.obj\C\Users\Y\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
+.\build\TempMeas\.obj\startup_stm32f103xe.o -o .\build\TempMeas\TempMeas.axf

@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.1
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Cortex-M3, 1, LIC=SDA0P-M4XV4-LQ00Q-N6Y4T-I3FTV-3TM13
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  D:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+F:\STM32cubeMX\Projects\TempMeas\MDK-ARM\TempMeas.uvprojx
+Project File Date:  06/01/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 1 (build 106)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Build target 'TempMeas'
+compiling main.c...
+../Core/Inc/ds18b20.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c(74): warning:  #223-D: function "strlen" declared implicitly
+        HAL_UART_Transmit(&huart1, (uint8_t*)confirm_msg, strlen(confirm_msg), HAL_MAX_DELAY);
+../Core/Src/main.c(82): warning:  #223-D: function "strlen" declared implicitly
+        HAL_UART_Transmit(&huart1, (uint8_t*)confirm_msg, strlen(confirm_msg), HAL_MAX_DELAY);
+../Core/Src/main.c(129): warning:  #223-D: function "strlen" declared implicitly
+    HAL_UART_Transmit(&huart1, (uint8_t*)prompt_msg, strlen(prompt_msg), HAL_MAX_DELAY);
+../Core/Src/main.c: 4 warnings, 0 errors
+compiling tim.c...
+compiling ds18b20.c...
+../Core/Inc/ds18b20.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Core\Src\ds18b20.c(142): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\ds18b20.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=11432 RO-data=556 RW-data=20 ZI-data=1780  
+FromELF: creating hex file...
+"TempMeas\TempMeas.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  F:\STM32cubeMX\Projects\TempMeas\MDK-ARM\RTE
+  D:\keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  D:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>

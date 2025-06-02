@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"tempmeas\startup_stm32f103xe.o"
+"tempmeas\main.o"
+"tempmeas\gpio.o"
+"tempmeas\tim.o"
+"tempmeas\usart.o"
+"tempmeas\stm32f1xx_it.o"
+"tempmeas\stm32f1xx_hal_msp.o"
+"tempmeas\ds18b20.o"
+"tempmeas\stm32f1xx_hal_gpio_ex.o"
+"tempmeas\stm32f1xx_hal_tim.o"
+"tempmeas\stm32f1xx_hal_tim_ex.o"
+"tempmeas\stm32f1xx_hal.o"
+"tempmeas\stm32f1xx_hal_rcc.o"
+"tempmeas\stm32f1xx_hal_rcc_ex.o"
+"tempmeas\stm32f1xx_hal_gpio.o"
+"tempmeas\stm32f1xx_hal_dma.o"
+"tempmeas\stm32f1xx_hal_cortex.o"
+"tempmeas\stm32f1xx_hal_pwr.o"
+"tempmeas\stm32f1xx_hal_flash.o"
+"tempmeas\stm32f1xx_hal_flash_ex.o"
+"tempmeas\stm32f1xx_hal_exti.o"
+"tempmeas\stm32f1xx_hal_uart.o"
+"tempmeas\system_stm32f1xx.o"
+--strict --scatter "TempMeas\TempMeas.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TempMeas.map" -o TempMeas\TempMeas.axf
